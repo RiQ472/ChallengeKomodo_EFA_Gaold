@@ -6,7 +6,8 @@ namespace Komodo_Claims
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClaimsUI ui = new ClaimsUI();
+            ui.Run();
         }
     }
 }
